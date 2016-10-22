@@ -1,6 +1,6 @@
 # Учебный проект «Барбершоп»
 
-* Студент: [Ольга Кукаркина](https://up.htmlacademy.ru/htmlcss/15/user/247029).
+* Студент: [Оля Кукаркина](https://up.htmlacademy.ru/htmlcss/15/user/247029).
 
 ---
 
