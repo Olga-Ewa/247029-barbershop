@@ -6,15 +6,13 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-		
-<!Шапка>	
+<!--Шапка-->	
 	<div class="page-header">
-	<!Логотип>		
+	<!--Логотип-->		
 		<div class="header-logo">
-		<img src="#" alt="Логотип">Логотип
+		<img src="#" alt="Логотип">
 		</div>
-	<!Навигация>		
+	<!--Навигация-->		
 		<nav class="main-nav">
 			<ul>
 				<li><a href="#">Информация</li>
@@ -27,9 +25,9 @@
 		<a href="#">Вход</a>	
 	</div>
 	
-<!Основной текст сайта>	
+<!--Основной текст сайта-->	
 	<div class="user">
-	<!Нижнее меню>		
+	<!--Нижнее меню-->		
 		<div class="user-menu">
 		<h2>СРЕДСТВА ДЛЯ УХОДА</h2>
 		<ul class="user-menu-words">
@@ -38,48 +36,48 @@
 			<li><a href="#">Средства для ухода</a></li>
 		</ul>
 		</div>		
-	<!Производители>		
-		<div class="user-prodaction">
-				<form action="#" method="post">
-				<b>ПРОИЗВОДИТЕЛИ</b>
-				<label for="user-prodaction-1">Baxter of California</label>
-				<input type="checkbox" name="user-prodaction" id="user-prodaction-1" value="user-prodaction-1">
-				<label for="user-prodaction-2">Mr Natty</label>
-				<input type="checkbox" name="user-prodaction" id="user-prodaction-2" value="user-prodaction-2">
-				<label for="user-prodaction-3">Suavecito</label>
-				<input type="checkbox" name="user-prodaction" id="user-prodaction-3" value="user-prodaction-3">
-				<label for="user-prodaction-4">Malin+Goetx</label>
-				<input type="checkbox" name="user-prodaction" id="user-prodaction-4" value="feature-4">
-				<label for="user-prodaction-5">American Crew</label>
-				<input type="checkbox" name="user-prodaction" id="user-prodaction-5" value="user-prodaction-5">
-			</form>
-		</div>
+	<!--Производители-->
+		<div class="form">		
+			<form action="#" method="post">
+				<div class="form-user-prodaction">
+				<fieldset>
+				<legend>ПРОИЗВОДИТЕЛИ</legend>
+				<input type="checkbox" name="user-prodaction" id="user-prodaction-1" value="user-prodaction-1" checked=""><label for="user-prodaction-">Baxter of California</label>
+				<br>
+				<input type="checkbox" name="user-prodaction" id="user-prodaction-2" value="user-prodaction-2"><label for="user-prodaction">Mr Natty</label>
+				<br>
+				<input type="checkbox" name="user-prodaction" id="user-prodaction-3" value="user-prodaction-3" checked=""><label for="user-prodaction">Suavecito</label>
+				<br>
+				<input type="checkbox" name="user-prodaction" id="user-prodaction-4" value="feature-4"><label for="user-prodaction">Malin+Goetx</label>
+				<br>
+				<input type="checkbox" name="user-prodaction" id="user-prodaction-5" value="user-prodaction-5" checked=""><label for="user-prodaction">American Crew</label>
+				</fieldset>
+				</div>
 
-	<!Группы товаров>
-		<div class="user-group">
-			<form action="#" method="post">
-				<b>ГРУППЫ ТОВАРОВ</b>
-				<label for="user-group-1">Бритвенные принадлежности</label>
-				<input type="radio" name="user-group" id="user-group-1" value="user-group">
-				<label for="user-group-2">Средства для ухода</label>
-				<input type="radio" name="user-group" id="user-group-2" value="user-group-2">
-				<label for="user-group-3">Аксессуары</label>
-				<input type="radio" name="user-group" id="user-group-3" value="user-group-3">
-			</form>
+	<!--Группы товаров-->
+		<div class="form-user-group">
+				<fieldset>
+				<legend>ГРУППЫ ТОВАРОВ</legend>
+				<input type="radio" name="user-group" id="user-group-1" value="user-group"><label for="user-group">Бритвенные принадлежности</label>
+				<br>
+				<input type="radio" name="user-group" id="user-group-2" value="user-group-2" checked=""><label for="user-group">Средства для ухода</label>
+				<br>
+				<input type="radio" name="user-group" id="user-group-3" value="user-group-3"><label for="user-group">Аксессуары</label>
+				</fieldset>
 		</div>
-		<!Кнопка "показать">
-		<div class="btn">	
-			<form action="#" method="post">
+		<!--Кнопка "показать"-->
+		<div class="btn">
+			<fieldset>	
 			<input type="submit" name="show" id="show" value="Показать">
-			</form>
-
 		</div>
+			</fieldset>
+			</form>
 	</div>
-	<!Товары с описанием>	
+	<!--Товары с описанием-->	
 		<div class="user-good">
 	
 			<div class="user-good-item">
-				<img src="#">
+				<img src="#" alt="Фото">
 				<p>Набор для путешествий "Baxter of colifornia</p>
 				<div class="user-good-price">
 				2900 руб.
@@ -89,8 +87,8 @@
 				</div>
 			</div>
 			
-			<div class="user-good-item>
-				<img src="#">
+			<div class="user-good-item">
+				<img src="#" alt="Фото">
 				<p>Увлажняющий кондиционер "Baxter of colifornia"</p>
 				<div class="user-good-price">
 				750 руб.
@@ -100,8 +98,8 @@
 				</div>
 			</div>
 
-			<div class="user-good-item>
-				<img src="#">
+			<div class="user-good-item">
+				<img src="#" alt="Фото">
 				<p>Гель для волос "Suavecito"</p>
 				<div class="user-good-price">
 				290 руб.
@@ -111,8 +109,8 @@
 				</div>
 			</div>
 				
-			<div class="user-good-item>
-				<img src="#">
+			<div class="user-good-item">
+				<img src="#" alt="Фото">
 				<p>Глина для укладки волос "American crew"</p>
 				<div class="user-good-price">
 				500 руб.
@@ -122,8 +120,8 @@
 				</div>	
 			</div>
 				
-			<div class="user-good-item>
-				<img src="#">
+			<div class="user-good-item">
+				<img src="#" alt="Фото">
 				<p>Гель для волос "American crew"</p>
 				<div class="user-good-price">
 				300 руб.
@@ -133,8 +131,8 @@
 				</div>	
 			</div>
 				
-			<div class="user-good-item>
-				<img src="#">
+			<div class="user-good-item">
+				<img src="#" alt="Фото">
 				<p>Набор для бритья "Baxter of colifornia"</p>
 				<div class="user-good-price">
 				3900 руб.
@@ -144,7 +142,7 @@
 				</div>	
 			</div>
 				
-	<!Номера страниц>			
+	<!--Номера страниц-->			
 			<div class="numper-page">
 				<a href="#" class="number-page-btn">1</a>
 				<a href="#" class="number-page-btn">2</a>
@@ -153,25 +151,25 @@
 			</div>
 				
 			</div>
-		</div>
+	</div>
 
-<!Подвал сайта>
+<!--Подвал сайта-->
 	<div class="footer">
-	<!Адрес>		
+	<!--Адрес-->		
 		<div class="footer-contact">
 		<p>Барбешок "Бородинский<br>
 		Адрес: г.Санкт-Петербург, ул. Б.Конюшенная, д 19/8<br>
 		<a href="#">Как нас найти</a><br>
 		Телефон:+7(495)666-02-66</p>
 		</div>
-	<!Социальные сети>
+	<!--Социальные сети-->
 		<div class="footer-social">
 		<p>Давайте дружить</p>
 		<a href="#" social-btn>В контакте</a>
 		<a href="#" social-btn>Facebook</a>
 		<a href="#" social-btn>Instagram</a>
 		</div>
-	<!Данные о разработчике>		
+	<!--Данные о разработчике-->		
 		<div class="autor">
 		<p>Разработано:</p>
 		<a href="#" class="autor-btn">htmlacademy.ru</a>
